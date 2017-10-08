@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="EBb-8V-oiR">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--关注-->
+        <scene sceneID="JCA-Qv-prS">
+            <objects>
+                <viewController id="X4v-c0-5Vt" customClass="FriendTrendViewController" customModule="swift_budejie" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="S48-Rw-wmN"/>
+                        <viewControllerLayoutGuide type="bottom" id="NrX-Q2-4nc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lCf-l5-4DX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tKD-Bx-4TI">
+                                <rect key="frame" x="87.5" y="404" width="200" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="CR0-Wz-ahq"/>
+                                    <constraint firstAttribute="height" constant="35" id="jZd-Hc-NUN"/>
+                                </constraints>
+                                <state key="normal" title="立即登录注册" backgroundImage="friendsTrend_login">
+                                    <color key="titleColor" red="1" green="0.065475309920000002" blue="0.17553963489999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" backgroundImage="friendsTrend_login_click"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T9H-Ra-Gae">
+                                <rect key="frame" x="52.5" y="303" width="270" height="61"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="270" id="5o1-Xh-UAt"/>
+                                </constraints>
+                                <string key="text">快快登录吧, 关注百思最in牛人
+好友动态让你过把瘾儿~
+欧耶~~~~!</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.12941176469999999" green="0.75294117650000003" blue="0.68235294120000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="header_cry_icon" translatesAutoresizingMaskIntoConstraints="NO" id="bAg-aa-RwD">
+                                <rect key="frame" x="163.5" y="215" width="48" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="48" id="4U4-w4-LLb"/>
+                                    <constraint firstAttribute="height" constant="48" id="jHY-8X-v10"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="tKD-Bx-4TI" firstAttribute="centerX" secondItem="lCf-l5-4DX" secondAttribute="centerX" id="0zw-fn-CU9"/>
+                            <constraint firstItem="bAg-aa-RwD" firstAttribute="centerX" secondItem="lCf-l5-4DX" secondAttribute="centerX" id="2T4-Ms-9rP"/>
+                            <constraint firstItem="T9H-Ra-Gae" firstAttribute="top" secondItem="bAg-aa-RwD" secondAttribute="bottom" constant="40" id="C2H-UX-Bnk"/>
+                            <constraint firstItem="T9H-Ra-Gae" firstAttribute="centerY" secondItem="lCf-l5-4DX" secondAttribute="centerY" id="Nw3-IE-MNq"/>
+                            <constraint firstItem="T9H-Ra-Gae" firstAttribute="centerX" secondItem="lCf-l5-4DX" secondAttribute="centerX" id="PVl-qh-PYf"/>
+                            <constraint firstItem="tKD-Bx-4TI" firstAttribute="top" secondItem="T9H-Ra-Gae" secondAttribute="bottom" constant="40" id="TXM-rf-Qv3"/>
+                            <constraint firstItem="tKD-Bx-4TI" firstAttribute="top" secondItem="T9H-Ra-Gae" secondAttribute="bottom" constant="40" id="bLO-Y0-XA8"/>
+                            <constraint firstItem="T9H-Ra-Gae" firstAttribute="top" secondItem="bAg-aa-RwD" secondAttribute="bottom" constant="40" id="gzL-kD-xMW"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="关注" image="tabBar_friendTrends_icon" selectedImage="tabBar_friendTrends_click_icon" id="zSV-vt-cxf"/>
+                    <navigationItem key="navigationItem" title="关注" id="573-gF-gW3"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qFI-8M-QkA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="566" y="729"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="mWZ-8h-pgA">
+            <objects>
+                <navigationController id="EBb-8V-oiR" customClass="TbNavViewController" customModule="swift_budejie" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="wvx-50-bdx"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="cWM-L8-BCi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="X4v-c0-5Vt" kind="relationship" relationship="rootViewController" id="bfJ-cJ-3HF"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gNP-ae-nuP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-180" y="758"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="friendsTrend_login" width="243" height="48"/>
+        <image name="friendsTrend_login_click" width="243" height="48"/>
+        <image name="header_cry_icon" width="48" height="48"/>
+        <image name="tabBar_friendTrends_click_icon" width="37" height="37"/>
+        <image name="tabBar_friendTrends_icon" width="37" height="37"/>
+    </resources>
+</document>

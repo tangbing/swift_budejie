@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="P6L-wK-cTI">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tb Tab Bar View Controller-->
+        <scene sceneID="bNx-5S-Gxk">
+            <objects>
+                <tabBarController id="P6L-wK-cTI" customClass="TbTabBarViewController" customModule="swift_budejie" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="Rp3-GR-cSq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="RSv-gC-TwQ" kind="relationship" relationship="viewControllers" id="nDO-lK-Wbj"/>
+                        <segue destination="rED-Eg-ZoS" kind="relationship" relationship="viewControllers" id="Yz0-GR-gUP"/>
+                        <segue destination="ATW-oC-qp2" kind="relationship" relationship="viewControllers" id="Obh-2j-vOg"/>
+                        <segue destination="W3b-c0-AWc" kind="relationship" relationship="viewControllers" id="ncC-hD-6ih"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hI1-Jh-Gb4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1182" y="468"/>
+        </scene>
+        <!--Essence-->
+        <scene sceneID="V3E-wp-Okm">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Essence" id="RSv-gC-TwQ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="精华" image="tabBar_essence_icon" selectedImage="tabBar_essence_click_icon" id="Iat-ON-YGE"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y9a-tT-4OM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-180" y="-656"/>
+        </scene>
+        <!--New-->
+        <scene sceneID="KBJ-kk-TRI">
+            <objects>
+                <viewControllerPlaceholder storyboardName="New" id="rED-Eg-ZoS" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="新帖" image="tabBar_new_icon" selectedImage="tabBar_new_click_icon" id="9hN-Wr-P5W"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3c5-L9-QSA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-150" y="33"/>
+        </scene>
+        <!--FriendTrends-->
+        <scene sceneID="gaT-pB-Z6X">
+            <objects>
+                <viewControllerPlaceholder storyboardName="FriendTrends" id="ATW-oC-qp2" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="关注" image="tabBar_friendTrends_icon" selectedImage="tabBar_friendTrends_click_icon" id="ehy-uB-UKp"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bkh-o3-vBE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-180" y="758"/>
+        </scene>
+        <!--Me-->
+        <scene sceneID="uqQ-WT-swB">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Me" id="W3b-c0-AWc" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="我" image="tabBar_me_icon" selectedImage="tabBar_me_click_icon" id="9MV-eV-Lvw"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yS1-xm-N8S" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-215" y="1513"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tabBar_essence_click_icon" width="37" height="37"/>
+        <image name="tabBar_essence_icon" width="37" height="37"/>
+        <image name="tabBar_friendTrends_click_icon" width="37" height="37"/>
+        <image name="tabBar_friendTrends_icon" width="37" height="37"/>
+        <image name="tabBar_me_click_icon" width="37" height="37"/>
+        <image name="tabBar_me_icon" width="37" height="37"/>
+        <image name="tabBar_new_click_icon" width="37" height="37"/>
+        <image name="tabBar_new_icon" width="37" height="37"/>
+    </resources>
+</document>

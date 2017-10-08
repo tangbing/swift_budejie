@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="uF3-qU-0UD">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--精华-->
+        <scene sceneID="2Bh-7M-eet">
+            <objects>
+                <viewController id="NEq-u3-ycK" customClass="EssenceViewController" customModule="swift_budejie" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6S8-YX-kNS"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ixt-Ot-fUW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Vee-qo-hO5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="精华" image="tabBar_essence_icon" selectedImage="tabBar_essence_click_icon" id="890-62-ORr"/>
+                    <navigationItem key="navigationItem" id="1J0-wD-0t7"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QEH-c9-5DR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="399" y="-684"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="ezI-ti-4Ss">
+            <objects>
+                <navigationController id="uF3-qU-0UD" customClass="TbNavViewController" customModule="swift_budejie" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="7gg-wS-56c"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="wp8-Pz-nfm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="NEq-u3-ycK" kind="relationship" relationship="rootViewController" id="HTB-sV-P7a"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OnD-gi-Z2S" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="87" y="-673"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tabBar_essence_click_icon" width="37" height="37"/>
+        <image name="tabBar_essence_icon" width="37" height="37"/>
+    </resources>
+</document>
