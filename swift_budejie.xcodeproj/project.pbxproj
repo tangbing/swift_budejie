@@ -7,19 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		042536011F74F7C700581742 /* TagModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 042536001F74F7C700581742 /* TagModel.m */; };
 		0429873C1F0E0DCD00901B0E /* TbCustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429873B1F0E0DCD00901B0E /* TbCustomTabBar.swift */; };
 		043D091F1F1626E0004D8844 /* Button-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D091E1F1626E0004D8844 /* Button-Extension.swift */; };
 		043D09211F170663004D8844 /* Define.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D09201F170663004D8844 /* Define.swift */; };
+		043D09241F170D5E004D8844 /* RecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D09221F170D5E004D8844 /* RecommendViewController.swift */; };
 		043D09251F170D5E004D8844 /* RecommendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043D09231F170D5E004D8844 /* RecommendViewController.xib */; };
-<<<<<<< HEAD
 		046109EF1F2F322700BF2570 /* RecomendTagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046109ED1F2F322700BF2570 /* RecomendTagViewController.swift */; };
 		046109F01F2F322700BF2570 /* RecomendTagViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046109EE1F2F322700BF2570 /* RecomendTagViewController.xib */; };
 		04A104DC1F209A8D00D288F7 /* NetworkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A104DB1F209A8D00D288F7 /* NetworkTools.swift */; };
-=======
-		043D09351F171E0E004D8844 /* NetworksTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D09341F171E0E004D8844 /* NetworksTool.swift */; };
-		04B1F5941F70B88B0028FA3A /* RecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B1F5931F70B88B0028FA3A /* RecommendViewController.swift */; };
->>>>>>> 99d2ebf9494102f0c4025401f842892a24581781
 		04FABED41EFBAD2E00B69746 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FABED21EFBAD2E00B69746 /* Main.storyboard */; };
 		04FABED61EFBAD2E00B69746 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FABED51EFBAD2E00B69746 /* Assets.xcassets */; };
 		04FABED91EFBAD2E00B69746 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FABED71EFBAD2E00B69746 /* LaunchScreen.storyboard */; };
@@ -59,22 +54,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		042535FF1F74F7C700581742 /* TagModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TagModel.h; sourceTree = "<group>"; };
-		042536001F74F7C700581742 /* TagModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TagModel.m; sourceTree = "<group>"; };
-		042536091F75106A00581742 /* swift_budejie-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "swift_budejie-Bridging-Header.h"; sourceTree = "<group>"; };
-		0425360A1F75162000581742 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		0429873B1F0E0DCD00901B0E /* TbCustomTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TbCustomTabBar.swift; sourceTree = "<group>"; };
 		043D091E1F1626E0004D8844 /* Button-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Button-Extension.swift"; sourceTree = "<group>"; };
 		043D09201F170663004D8844 /* Define.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Define.swift; sourceTree = "<group>"; };
+		043D09221F170D5E004D8844 /* RecommendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendViewController.swift; sourceTree = "<group>"; };
 		043D09231F170D5E004D8844 /* RecommendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecommendViewController.xib; sourceTree = "<group>"; };
-<<<<<<< HEAD
 		046109ED1F2F322700BF2570 /* RecomendTagViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecomendTagViewController.swift; sourceTree = "<group>"; };
 		046109EE1F2F322700BF2570 /* RecomendTagViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecomendTagViewController.xib; sourceTree = "<group>"; };
 		04A104DB1F209A8D00D288F7 /* NetworkTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkTools.swift; sourceTree = "<group>"; };
-=======
-		043D09341F171E0E004D8844 /* NetworksTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworksTool.swift; sourceTree = "<group>"; };
-		04B1F5931F70B88B0028FA3A /* RecommendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendViewController.swift; sourceTree = "<group>"; };
->>>>>>> 99d2ebf9494102f0c4025401f842892a24581781
 		04FABECB1EFBAD2E00B69746 /* swift_budejie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swift_budejie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FABED31EFBAD2E00B69746 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04FABED51EFBAD2E00B69746 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../Assets.xcassets; sourceTree = "<group>"; };
@@ -132,15 +119,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		042535FE1F74F79B00581742 /* TagModel */ = {
-			isa = PBXGroup;
-			children = (
-				042535FF1F74F7C700581742 /* TagModel.h */,
-				042536001F74F7C700581742 /* TagModel.m */,
-			);
-			path = TagModel;
-			sourceTree = "<group>";
-		};
 		042987361F0E0DA000901B0E /* view */ = {
 			isa = PBXGroup;
 			children = (
@@ -247,15 +225,11 @@
 		04FABEFF1EFBAFBF00B69746 /* FriendTrends-关注 */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
 				331D7C231F6FFEFB008C9CC8 /* tagModel */,
-=======
-				042535FE1F74F79B00581742 /* TagModel */,
->>>>>>> 99d2ebf9494102f0c4025401f842892a24581781
 				04FABF151EFBB1FB00B69746 /* FriendTrends.storyboard */,
 				04FABF1D1EFBB38C00B69746 /* FriendTrendViewController.swift */,
+				043D09221F170D5E004D8844 /* RecommendViewController.swift */,
 				043D09231F170D5E004D8844 /* RecommendViewController.xib */,
-				04B1F5931F70B88B0028FA3A /* RecommendViewController.swift */,
 			);
 			path = "FriendTrends-关注";
 			sourceTree = "<group>";
@@ -291,13 +265,8 @@
 				04FABED21EFBAD2E00B69746 /* Main.storyboard */,
 				04FABF031EFBAFF000B69746 /* AppDelegate.swift */,
 				043D09201F170663004D8844 /* Define.swift */,
-<<<<<<< HEAD
 				3325DF2C1F8A275000E62F73 /* swift_budejie-Bridging-Header.h */,
 				3325DF2D1F8A2F7000E62F73 /* PrefixHeader.pch */,
-=======
-				042536091F75106A00581742 /* swift_budejie-Bridging-Header.h */,
-				0425360A1F75162000581742 /* PrefixHeader.pch */,
->>>>>>> 99d2ebf9494102f0c4025401f842892a24581781
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -537,11 +506,7 @@
 				04FABF051EFBAFF000B69746 /* AppDelegate.swift in Sources */,
 				04FABF251EFBB98D00B69746 /* TbNavViewController.swift in Sources */,
 				04FABF221EFBB3A000B69746 /* NewViewController.swift in Sources */,
-<<<<<<< HEAD
 				331D7C261F6FFF0C008C9CC8 /* tagModel.m in Sources */,
-=======
-				04B1F5941F70B88B0028FA3A /* RecommendViewController.swift in Sources */,
->>>>>>> 99d2ebf9494102f0c4025401f842892a24581781
 				0429873C1F0E0DCD00901B0E /* TbCustomTabBar.swift in Sources */,
 				04FABF201EFBB39600B69746 /* MeViewController.swift in Sources */,
 				04FABF1C1EFBB37800B69746 /* EssenceViewController.swift in Sources */,
@@ -550,7 +515,7 @@
 				043D09211F170663004D8844 /* Define.swift in Sources */,
 				046109EF1F2F322700BF2570 /* RecomendTagViewController.swift in Sources */,
 				043D091F1F1626E0004D8844 /* Button-Extension.swift in Sources */,
-				042536011F74F7C700581742 /* TagModel.m in Sources */,
+				043D09241F170D5E004D8844 /* RecommendViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -711,20 +676,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = A8N753RPEC;
-<<<<<<< HEAD
 				GCC_PREFIX_HEADER = swift_budejie/classes/Other/PrefixHeader.pch;
-=======
-				GCC_PREFIX_HEADER = "$(SRCROOT)/swift_budejie/classes/Other/PrefixHeader.pch";
->>>>>>> 99d2ebf9494102f0c4025401f842892a24581781
 				INFOPLIST_FILE = swift_budejie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.aetos.swift-budejie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-<<<<<<< HEAD
 				SWIFT_OBJC_BRIDGING_HEADER = "swift_budejie/classes/Other/swift_budejie-Bridging-Header.h";
-=======
-				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/swift_budejie/classes/Other/swift_budejie-Bridging-Header.h";
->>>>>>> 99d2ebf9494102f0c4025401f842892a24581781
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
@@ -738,20 +695,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = A8N753RPEC;
-<<<<<<< HEAD
 				GCC_PREFIX_HEADER = swift_budejie/classes/Other/PrefixHeader.pch;
-=======
-				GCC_PREFIX_HEADER = "$(SRCROOT)/swift_budejie/classes/Other/PrefixHeader.pch";
->>>>>>> 99d2ebf9494102f0c4025401f842892a24581781
 				INFOPLIST_FILE = swift_budejie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.aetos.swift-budejie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-<<<<<<< HEAD
 				SWIFT_OBJC_BRIDGING_HEADER = "swift_budejie/classes/Other/swift_budejie-Bridging-Header.h";
-=======
-				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/swift_budejie/classes/Other/swift_budejie-Bridging-Header.h";
->>>>>>> 99d2ebf9494102f0c4025401f842892a24581781
 				SWIFT_VERSION = 3.0;
 				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};

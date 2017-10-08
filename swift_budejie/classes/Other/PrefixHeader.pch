@@ -2,7 +2,6 @@
 //  PrefixHeader.pch
 //  swift_budejie
 //
-<<<<<<< HEAD
 //  Created by Tb on 2017/10/8.
 //  Copyright © 2017年 macTb. All rights reserved.
 //
@@ -14,14 +13,3 @@
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 
 #endif /* PrefixHeader_pch */
-=======
-//  Created by mac on 2017/9/22.
-//  Copyright © 2017年 macTb. All rights reserved.
-//
-
-#ifndef PrefixHeader_h
-#define PrefixHeader_h
-
-
-#endif /* PrefixHeader_h */
->>>>>>> 99d2ebf9494102f0c4025401f842892a24581781
