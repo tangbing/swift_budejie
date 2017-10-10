@@ -33,6 +33,8 @@
 		04FABF251EFBB98D00B69746 /* TbNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FABF241EFBB98D00B69746 /* TbNavViewController.swift */; };
 		04FABF271EFBC22800B69746 /* TbTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FABF261EFBC22800B69746 /* TbTabBarViewController.swift */; };
 		331D7C261F6FFF0C008C9CC8 /* tagModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 331D7C251F6FFF0C008C9CC8 /* tagModel.m */; };
+		33774F0A1F8D11E700DBADCE /* RecommendUserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33774F081F8D11E700DBADCE /* RecommendUserCell.swift */; };
+		33774F0B1F8D11E700DBADCE /* RecommendUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33774F091F8D11E700DBADCE /* RecommendUserCell.xib */; };
 		C557E462D961CEF1AEE5070D /* Pods_swift_budejie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF3B3763701F7D63ED06E808 /* Pods_swift_budejie.framework */; };
 /* End PBXBuildFile section */
 
@@ -88,6 +90,8 @@
 		331D7C251F6FFF0C008C9CC8 /* tagModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tagModel.m; sourceTree = "<group>"; };
 		3325DF2C1F8A275000E62F73 /* swift_budejie-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "swift_budejie-Bridging-Header.h"; sourceTree = "<group>"; };
 		3325DF2D1F8A2F7000E62F73 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		33774F081F8D11E700DBADCE /* RecommendUserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendUserCell.swift; sourceTree = "<group>"; };
+		33774F091F8D11E700DBADCE /* RecommendUserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecommendUserCell.xib; sourceTree = "<group>"; };
 		3477D1B0669B72E67271FB13 /* Pods-swift_budejie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift_budejie.release.xcconfig"; path = "Pods/Target Support Files/Pods-swift_budejie/Pods-swift_budejie.release.xcconfig"; sourceTree = "<group>"; };
 		E037A61BB628782C14EC2B0A /* Pods-swift_budejie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift_budejie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swift_budejie/Pods-swift_budejie.debug.xcconfig"; sourceTree = "<group>"; };
 		EF3B3763701F7D63ED06E808 /* Pods_swift_budejie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_budejie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -225,6 +229,7 @@
 		04FABEFF1EFBAFBF00B69746 /* FriendTrends-关注 */ = {
 			isa = PBXGroup;
 			children = (
+				33774F071F8D11B700DBADCE /* View */,
 				331D7C231F6FFEFB008C9CC8 /* tagModel */,
 				04FABF151EFBB1FB00B69746 /* FriendTrends.storyboard */,
 				04FABF1D1EFBB38C00B69746 /* FriendTrendViewController.swift */,
@@ -295,6 +300,15 @@
 				331D7C251F6FFF0C008C9CC8 /* tagModel.m */,
 			);
 			path = tagModel;
+			sourceTree = "<group>";
+		};
+		33774F071F8D11B700DBADCE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				33774F081F8D11E700DBADCE /* RecommendUserCell.swift */,
+				33774F091F8D11E700DBADCE /* RecommendUserCell.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		C583F00D49D4AA7D692D88B9 /* Pods */ = {
@@ -422,6 +436,7 @@
 			files = (
 				04FABF1A1EFBB32000B69746 /* Info.plist in Resources */,
 				04FABED91EFBAD2E00B69746 /* LaunchScreen.storyboard in Resources */,
+				33774F0B1F8D11E700DBADCE /* RecommendUserCell.xib in Resources */,
 				04FABED61EFBAD2E00B69746 /* Assets.xcassets in Resources */,
 				04FABED41EFBAD2E00B69746 /* Main.storyboard in Resources */,
 				046109F01F2F322700BF2570 /* RecomendTagViewController.xib in Resources */,
@@ -505,6 +520,7 @@
 				04FABF1E1EFBB38C00B69746 /* FriendTrendViewController.swift in Sources */,
 				04FABF051EFBAFF000B69746 /* AppDelegate.swift in Sources */,
 				04FABF251EFBB98D00B69746 /* TbNavViewController.swift in Sources */,
+				33774F0A1F8D11E700DBADCE /* RecommendUserCell.swift in Sources */,
 				04FABF221EFBB3A000B69746 /* NewViewController.swift in Sources */,
 				331D7C261F6FFF0C008C9CC8 /* tagModel.m in Sources */,
 				0429873C1F0E0DCD00901B0E /* TbCustomTabBar.swift in Sources */,
